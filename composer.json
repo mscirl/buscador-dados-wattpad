@@ -1,0 +1,20 @@
+{
+    "name": "thais/buscador-dados-wattpad",
+    "description": "Projeto que busca dados de uma fanfic de um usuário do wattpad",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Thais\\BuscadorDadosWattpad\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "thais maciel",
+            "email": "thaismaciielf@hotmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler": "^6.4"
+    }
+}
